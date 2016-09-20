@@ -1,0 +1,44 @@
+#vlightbox9 {
+	width:100%;
+	zoom:1;	
+}
+/*fade*/
+#vlightbox9 .vlightbox9 div{
+	left:0;
+	bottom:0;
+	width:100%;
+	background:#000;
+	opacity:0.7;
+	padding:5px;
+	color:#FFF;	
+}
+#vlightbox9 .vlightbox9 {
+	height:300px;
+	overflow:hidden;
+}
+
+#vlightbox9 .vlightbox9 {
+	display:-moz-inline-stack;
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+	position:relative;
+	vertical-align:top;
+	margin:5px;
+	width:250px;
+	font-family:Trebuchet,Tahoma,Arial,sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	text-decoration:none;
+	text-align:center;
+	outline:none;
+}
+#vlightbox9 .vlightbox9 a{
+	margin:0;
+}
+#vlightbox9 .vlightbox9 img{
+	display:block;
+	border:none;
+	margin:0;
+}
+#vlightbox9 .vlightbox9 div {display:none}
